@@ -9,6 +9,7 @@
   padding-bottom: 40px;
 }
 .how-it-works-foto {
+  display: block;
   width: 335px;
   height: 450px;
   border-radius: 30px;
@@ -19,6 +20,7 @@
     url(../img/how-it-works/mob/Rectangle-1x.jpg);
   background-position: center;
   background-size: cover;
+  margin: auto;
 }
 .how-it-works-order-sec {
   background-color: #576f35;
@@ -38,4 +40,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
+}
+.how-it-works-text {
+  margin-bottom: 40px;
 }
