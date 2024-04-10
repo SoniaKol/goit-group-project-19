@@ -1,0 +1,41 @@
+.how-it-works-foto-sec {
+  background-color: #7a3145;
+}
+.container {
+}
+
+.how-it-works-con {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.how-it-works-foto {
+  width: 335px;
+  height: 450px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0.3),
+      rgba(20, 20, 20, 0.3)
+    ),
+    url(../img/how-it-works/mob/Rectangle-1x.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.how-it-works-order-sec {
+  background-color: #576f35;
+}
+.how-it-works-order {
+  padding-top: 80px;
+  padding-bottom: 48px;
+}
+.how-it-works-item {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
