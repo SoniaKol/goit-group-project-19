@@ -1,13 +1,12 @@
 .how-it-works-foto-sec {
   background-color: #7a3145;
 }
-.container {
-}
 
 .how-it-works-con {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 .how-it-works-foto {
   display: block;
   width: 335px;
@@ -22,13 +21,16 @@
   background-size: cover;
   margin: auto;
 }
+
 .how-it-works-order-sec {
   background-color: #576f35;
 }
+
 .how-it-works-order {
   padding-top: 80px;
   padding-bottom: 48px;
 }
+
 .how-it-works-item {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
@@ -42,6 +44,48 @@
   margin-right: auto;
   margin-bottom: 20px;
 }
+
+.how-it-works-item-part {
+  color: rgba(251, 251, 251, 0.3);
+}
+
 .how-it-works-text {
   margin-bottom: 40px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #fbfbfb;
+}
+
+.how-it-works-list {
+  align-items: center;
+}
+
+.how-it-works-list-con {
+  border-radius: 15px;
+  padding: 12px 27px 12px 24px;
+  width: 335px;
+  height: 76px;
+  background-color: #fbfbfb;
+  display: flex;
+  align-items: center;
+}
+
+.how-it-works-list-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.6);
+}
+
+.how-it-works-list-text-part {
+  font-weight: 700;
+  color: #141414;
+}
+
+.how-it-works-list:not(:last-child) {
+  margin-bottom: 20px;
 }
