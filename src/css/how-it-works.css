@@ -21,18 +21,28 @@
   background-size: cover;
   margin: auto;
 }
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .how-it-works-foto {
+    background-image: linear-gradient(
+        rgba(20, 20, 20, 0.3),
+        rgba(20, 20, 20, 0.3)
+      ),
+      url(../img/how-it-works/mob/Rectangle-2x.jpg);
+  }
+}
 
 .how-it-works-order-sec {
   background-color: #576f35;
 }
 
-.how-it-works-order {
+.how-it-works-con-order {
   padding-top: 80px;
   padding-bottom: 48px;
 }
 
 .how-it-works-item {
-  font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
@@ -51,7 +61,6 @@
 
 .how-it-works-text {
   margin-bottom: 40px;
-  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
@@ -59,21 +68,33 @@
 }
 
 .how-it-works-list {
-  align-items: center;
-}
-
-.how-it-works-list-con {
   border-radius: 15px;
-  padding: 12px 27px 12px 24px;
-  width: 335px;
-  height: 76px;
+  padding: 17px 24px 17px 24px;
+  max-width: 335px;
+  max-height: 76px;
   background-color: #fbfbfb;
   display: flex;
   align-items: center;
+  gap: 29px;
+}
+
+.how-it-works-list-num {
+  display: flex;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  background: #7a3145;
+  border-radius: 50%;
+  outline: 5px solid rgba(122, 49, 69, 0.3);
+  min-width: 42px;
+  min-height: 42px;
+  align-items: center;
+  justify-content: center;
 }
 
 .how-it-works-list-text {
-  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.16667;
