@@ -8,7 +8,7 @@
 }
 
 .how-it-works-foto {
-  width: 335px;
+  max-width: 335px;
   height: 450px;
   border-radius: 30px;
   background-image: linear-gradient(
@@ -113,12 +113,15 @@
 /* ==========Tablet============ */
 
 @media screen and (min-width: 768px) {
+  .how-it-works-order-sec .container {
+    padding: 0;
+  }
   .how-it-works-con {
     padding: 100px 64px;
   }
 
   .how-it-works-foto {
-    width: 640px;
+    max-width: 640px;
     height: 640px;
     background-image: linear-gradient(
         rgba(20, 20, 20, 0.3),
@@ -171,5 +174,51 @@
     padding: 12px 24px 12px 24px;
     max-width: 450px;
     min-height: 84px;
+  }
+}
+
+/* ======Desktop========= */
+@media screen and (min-width: 1280px) {
+  .hiw {
+    display: flex;
+    justify-content: center;
+  }
+  .how-it-works-foto-sec {
+    min-width: 630px;
+  }
+  .how-it-works-con {
+    padding: 100px;
+  }
+
+  .how-it-works-order-sec {
+    padding: 100px 100px 152px 100px;
+  }
+  .how-it-works-order-sec .container {
+    padding: 0;
+  }
+
+  .how-it-works-foto {
+    max-width: 430px;
+    height: 559px;
+    background-image: linear-gradient(
+        rgba(20, 20, 20, 0.3),
+        rgba(20, 20, 20, 0.3)
+      ),
+      url(../img/how-it-works/desktop/Rectangle-1x.jpg);
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .how-it-works-foto {
+      background-image: linear-gradient(
+          rgba(20, 20, 20, 0.3),
+          rgba(20, 20, 20, 0.3)
+        ),
+        url(../img/how-it-works/desktop/Rectangle-2x.jpg);
+    }
+  }
+  .how-it-works-list {
+    min-height: 76px;
   }
 }
