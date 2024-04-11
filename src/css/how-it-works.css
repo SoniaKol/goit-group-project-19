@@ -44,7 +44,7 @@
 
 .how-it-works-item {
   font-weight: 600;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 1;
   letter-spacing: -0.01em;
   text-transform: uppercase;
@@ -97,7 +97,7 @@
 .how-it-works-list-text {
   font-weight: 500;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: -0.02em;
   color: rgba(20, 20, 20, 0.6);
 }
@@ -109,4 +109,68 @@
 
 .how-it-works-list:not(:last-child) {
   margin-bottom: 20px;
+}
+
+/* ==========768============ */
+
+@media screen and (min-width: 768px) {
+  .how-it-works-con {
+    padding: 100px 64px;
+  }
+
+  .how-it-works-foto {
+    width: 640px;
+    height: 640px;
+    background-image: linear-gradient(
+        rgba(20, 20, 20, 0.3),
+        rgba(20, 20, 20, 0.3)
+      ),
+      url(../img/how-it-works/tab/Rectangle-1x.jpg);
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .how-it-works-foto {
+      background-image: linear-gradient(
+          rgba(20, 20, 20, 0.3),
+          rgba(20, 20, 20, 0.3)
+        ),
+        url(../img/how-it-works/tab/Rectangle-2x.jpg);
+    }
+  }
+
+  .how-it-works-order-sec {
+    padding: 100px 159px;
+    justify-content: center;
+    display: flex;
+  }
+  .how-it-works-item {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+
+  .how-it-works-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .how-it-works-list-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .how-it-works-item {
+    width: 450px;
+  }
+
+  .how-it-works-text {
+    width: 450px;
+  }
+
+  .how-it-works-list {
+    padding: 12px 24px 12px 24px;
+    max-width: 450px;
+    min-height: 84px;
+  }
 }
