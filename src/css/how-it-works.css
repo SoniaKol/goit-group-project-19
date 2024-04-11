@@ -8,7 +8,6 @@
 }
 
 .how-it-works-foto {
-  display: block;
   width: 335px;
   height: 450px;
   border-radius: 30px;
@@ -111,7 +110,7 @@
   margin-bottom: 20px;
 }
 
-/* ==========768============ */
+/* ==========Tablet============ */
 
 @media screen and (min-width: 768px) {
   .how-it-works-con {
