@@ -1,0 +1,282 @@
+.your-order-wrap {
+    background: #7a3145;
+    padding: 80px 20px;
+}
+
+.order-text-block {
+    margin-bottom: 40px;
+}
+
+.your-order-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.04;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    margin-bottom: 29px;
+}
+
+.your-order-title span {
+    color: rgba(251, 251, 251, 0.3);
+}
+
+.your-order-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    color: #fbfbfb;
+}
+
+.order-form-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.order-form-wrap {
+    padding: 40px 20px;
+    background: #fbfbfb;
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.order-subtitle {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #141414;
+}
+
+.order-subtitle span {
+    color: #7a3145;
+}
+
+.order-subtitle .green {
+    color:#576f35;
+}
+
+
+.order-input {
+    border: 1px solid rgba(20, 20, 20, 0.2);
+    border-radius: 30px;
+    width: 100%;
+    height: 46px;
+    margin-bottom: 15px;
+    padding-left: 16px;
+    background-color: transparent;
+    outline: none;
+}
+
+.order-input::placeholder {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #141414;
+}
+
+.order-input:hover {
+    border: 1px solid #7a3145;
+}
+
+.order-input:not(:placeholder-shown):valid {
+    border: 1px solid #3cbc81;
+}
+
+.order-input:not(:placeholder-shown):invalid {
+    border: 1px solid #e74a3b;
+}
+
+
+.comment-textarea {
+    border: 1px solid rgba(20, 20, 20, 0.2);
+    border-radius: 15px;
+    width: 100%;
+    height: 91px;
+    padding-left: 16px;
+    padding-top: 14px;
+
+    outline: none;
+}
+
+.comment-textarea::placeholder {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #141414;
+}
+
+.comment-textarea:hover {
+    border: 1px solid #7a3145;
+}
+
+
+.send-btn {
+    display: block;
+    border-radius: 30px;
+    padding: 16px 0;
+    width: 100%;
+    background: #576f35;
+    color: #fbfbfb;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.social-content-img {
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.social-network-block {
+    background: #576f35;
+    border-radius: 30px;
+    padding: 40px 20px;
+    width: 100%;
+    height: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.01em;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+
+.social-subtitle {
+    margin-bottom: 14px;
+}
+
+.social-link-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.social-link {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+    color: #fbfbfb;
+}
+
+
+@media screen and (min-width: 375px) {
+
+}
+
+
+
+
+
+@media screen and (min-width: 768px){
+    .your-order-wrap {
+        padding: 100px 32px;
+    }
+
+    .order-text-block {
+        width: 640px;
+        margin-bottom: 50px;
+    }
+
+    .your-order-title {
+        font-size: 64px;
+        line-height: 1;
+        margin-bottom: 25px;
+    }
+
+    .your-order-text {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .order-form-block {
+        gap: 25px;
+        align-items: center;
+    }
+
+
+
+    .order-form-wrap {
+        padding: 50px 100px;
+        gap: 50px;
+        width: 628px;
+        height: 534px;
+    }
+
+    .send-btn {
+        font-size: 18px;
+        line-height: 1.11;
+    }
+
+
+    .social-network-block {
+        padding: 50px;
+        width: 628px;
+        height: 490px;
+    }
+    
+    .social-content-img {
+        width: 573px;
+        margin-bottom: 50px;
+    }
+
+    .social-subtitle {
+        font-size: 18px;
+        line-height: 1.11;
+    }
+
+    .social-link-list {
+        gap: 12px;
+    }
+
+
+    .social-link {
+        font-size: 32px;
+        line-height: 1;
+    }
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    .your-order-wrap {
+        padding: 100px;
+    }
+    .order-text-block {
+        width: 751px;
+    }
+
+    .order-form-block {
+        flex-direction: row;
+        gap: 24px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .order-form-wrap {
+        padding: 50px;
+        width: 527px;
+        height: 534px;
+    }
+
+    .social-network-block {
+        padding: 50px;
+        height: 534px;
+        width: 529px;
+    }
+
+
+}
