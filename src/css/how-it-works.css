@@ -7,29 +7,12 @@
   padding-bottom: 40px;
 }
 
-.how-it-works-foto {
-  max-width: 335px;
-  height: 450px;
-  border-radius: 30px;
-  background-image: linear-gradient(
-      rgba(20, 20, 20, 0.3),
-      rgba(20, 20, 20, 0.3)
-    ),
-    url(../img/how-it-works/mob/Rectangle-1x.jpg);
-  background-position: center;
-  background-size: cover;
-  margin: auto;
+.hiw-picture {
+  display: block;
 }
-@media screen and (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .how-it-works-foto {
-    background-image: linear-gradient(
-        rgba(20, 20, 20, 0.3),
-        rgba(20, 20, 20, 0.3)
-      ),
-      url(../img/how-it-works/mob/Rectangle-2x.jpg);
-  }
+
+.hiw-img {
+  border-radius: 30px;
 }
 
 .how-it-works-order-sec {
@@ -120,28 +103,6 @@
     padding: 100px 64px;
   }
 
-  .how-it-works-foto {
-    max-width: 640px;
-    height: 640px;
-    background-image: linear-gradient(
-        rgba(20, 20, 20, 0.3),
-        rgba(20, 20, 20, 0.3)
-      ),
-      url(../img/how-it-works/tab/Rectangle-1x.jpg);
-  }
-
-  @media screen and (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .how-it-works-foto {
-      background-image: linear-gradient(
-          rgba(20, 20, 20, 0.3),
-          rgba(20, 20, 20, 0.3)
-        ),
-        url(../img/how-it-works/tab/Rectangle-2x.jpg);
-    }
-  }
-
   .how-it-works-order-sec {
     padding: 100px 159px;
     justify-content: center;
@@ -183,41 +144,23 @@
     display: flex;
     justify-content: center;
   }
+
   .how-it-works-foto-sec {
-    min-width: 630px;
   }
+
   .how-it-works-con {
     padding: 100px;
+    /* min-width: 630px; */
   }
 
   .how-it-works-order-sec {
     padding: 100px 100px 152px 100px;
   }
+
   .how-it-works-order-sec .container {
     padding: 0;
   }
 
-  .how-it-works-foto {
-    max-width: 430px;
-    height: 559px;
-    background-image: linear-gradient(
-        rgba(20, 20, 20, 0.3),
-        rgba(20, 20, 20, 0.3)
-      ),
-      url(../img/how-it-works/desktop/Rectangle-1x.jpg);
-  }
-
-  @media screen and (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .how-it-works-foto {
-      background-image: linear-gradient(
-          rgba(20, 20, 20, 0.3),
-          rgba(20, 20, 20, 0.3)
-        ),
-        url(../img/how-it-works/desktop/Rectangle-2x.jpg);
-    }
-  }
   .how-it-works-list {
     min-height: 76px;
   }
