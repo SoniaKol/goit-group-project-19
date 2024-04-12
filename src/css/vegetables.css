@@ -4,21 +4,16 @@
 }
 .vegetables-container {
   display: flex;
-  /* align-items: flex-start;
-    justify-content: flex-start; */
   flex-direction: column;
   gap: 40px;
 }
 .vegetables-content {
   display: flex;
-  /* align-items: flex-start;
-  justify-content: flex-start; */
   flex-direction: column;
   gap: 20px;
   max-width: 626px;
 }
 .vegetables-content-title {
-  /* font-family: 'Inter Tight', sans-serif; */
   font-weight: 600;
   font-size: 48px;
 
@@ -32,7 +27,6 @@
   color: rgba(251, 251, 251, 0.3);
 }
 .vegetables-content-text {
-  /* font-family: 'Inter Tight', sans-serif; */
   font-weight: 500;
   font-size: 14px;
 
@@ -41,8 +35,6 @@
 }
 .vegetables-list {
   display: flex;
-  /* align-items: flex-start;
-  justify-content: flex-start; */
   flex-direction: column;
   gap: 20px;
 }
@@ -55,10 +47,8 @@
   margin-bottom: 14px;
 }
 .vegetables-card-title {
-  /* font-family: 'Inter Tight', sans-serif; */
   font-weight: 600;
   font-size: 28px;
-
   line-height: 1;
   letter-spacing: -0.01em;
   color: #7a3145;
@@ -66,7 +56,6 @@
   margin-bottom: 12px;
 }
 .vegetables-card-text {
-  /* font-family: 'Inter Tight', sans-serif; */
   font-weight: 600;
   font-size: 14px;
 
