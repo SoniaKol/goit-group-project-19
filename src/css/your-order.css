@@ -82,6 +82,7 @@
   padding-top: 14px;
   padding-right: 16px;
   padding-bottom: 14px;
+  resize: none;
 }
 .order-input::placeholder,
 .comment-textarea::placeholder {
