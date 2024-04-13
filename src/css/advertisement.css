@@ -1,113 +1,69 @@
-.advertisement-container {
-    max-width: 375px;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 .advertisement {
-    background-color: #fbfbfb;
-    position: relative;
-    z-index: 1;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .advertisement-text {
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 1.04;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    color: #fbfbfb;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+  position: relative;
 }
 
-.advertisement-container-text {
-    border-radius: 12px;
+.advertisement-text span {
+  color: #fbfbfb;
 }
 
-.advertisement-discount-text {
-    position: relative;
-    display: inline-block;
-    padding-left: 10px;
-    padding-top: 3px;
+.advertisement-text::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: -3px;
+  width: 300px;
+  height: 102px;
+  background-color: #576f35;
+  z-index: -1;
+  border-radius: 12px;
 }
 
-.advertisement-text-vitamins {
-    color: #141414;
-    padding-left: 10px;
-    display: inline-block;
-}
-
-.advertisement-discount-text::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #576f35;
-    z-index: -1;
-    border-radius: 12px;
+@media screen and (min-width: 348px) {
+  .advertisement-text::before {
+    width: 335px;
+    height: 102px;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .advertisement {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 
-    .advertisement-container {
-    max-width: 768px;
-    }
+  .advertisement-text {
+    font-size: 64px;
+    line-height: 1.09;
+  }
 
-    .advertisement-container {
-        padding-top: 100px;
-        padding-bottom: 100px;
-        padding-left: 16px;
-        padding-right: 16px;
-    }
-
-    .advertisement-text {
-        font-size: 64px;
-        line-height: 1.09;
-    }
-
-.advertisement-discount-text {
-        padding-left: 16px;
-        padding-top: 8px;
-        padding-bottom: 8px;
-    }
-
-.advertisement-discount-text::before {
-    width: calc(100% + 50px);
-}
-
-.advertisement-text-vitamins {
-        padding-left: 16px;
-    }
-
+  .advertisement-text::before {
+    top: -8px;
+    left: -16px;
+    width: 736px;
+    height: 86px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .advertisement-text {
+    font-size: 76px;
+    line-height: 1.05;
+  }
 
-    .advertisement-container {
-        max-width: 1280px;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-
-    .advertisement-text {
-        font-size: 76px;
-        line-height: 1.05;
-        
-    }
-
-    .advertisement-discount-text {
-        padding-left: 13px;
-    }
-
-    .advertisement-discount-text::before {
-        width: 100%;
-    }
-    
-    .advertisement-text-vitamins {
-        display: inline;
-        padding-left: 0;
-    }
+  .advertisement-text::before {
+    top: -2px;
+    left: -13px;
+    width: 808px;
+  }
 }
