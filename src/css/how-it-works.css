@@ -160,6 +160,10 @@
     display: flex;
   }
 
+  .work-picture-wrap {
+    padding: 100px;
+  }
+
   .work-img-container,
   .work-text-bg {
     width: calc(100% / 2);
