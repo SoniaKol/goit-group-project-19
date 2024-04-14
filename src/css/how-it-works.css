@@ -18,11 +18,12 @@
   background-color: #576f35;
   padding: 80px 20px;
 }
-
+.work-text-wrap {
+  margin: 0 auto;
+  max-width: 335px;
+}
 .work-text-container {
   margin-bottom: 40px;
-
-  /* max-width: 335px; */
 }
 
 .work-content-wrap {
@@ -64,6 +65,7 @@
   background: #fbfbfb;
   border-radius: 15px;
   height: 76px;
+
   font-weight: 500;
   font-size: 12px;
   line-height: 1.16667;
@@ -117,15 +119,17 @@
   .work-text-bg {
     padding-top: 100px;
     padding-bottom: 100px;
-
-    margin: 0 auto;
   }
 
-  .work-content-wrap {
+  .work-text-wrap {
     max-width: 450px;
   }
+
   .work-text-container {
     margin-bottom: 50px;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .work-subtitle {
