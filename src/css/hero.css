@@ -16,13 +16,18 @@
 
 .hero-title {
   font-weight: 600;
-  font-size: 48px;
+  font-size: 46px;
   line-height: 1;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
 }
 
+@media screen and (min-width: 375px) {
+  .hero-title {
+    font-weight: 48px;
+  }
+}
 .hero-text {
   font-weight: 500;
   font-size: 14px;
