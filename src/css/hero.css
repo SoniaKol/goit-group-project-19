@@ -37,7 +37,7 @@
       rgba(20, 20, 20, 0.2),
       rgba(20, 20, 20, 0.2)
     ),
-    url(../img/hero/hero-1x.jpg);
+    url(../img/hero/hero-1x.webP);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -50,7 +50,7 @@
         rgba(20, 20, 20, 0.2),
         rgba(20, 20, 20, 0.2)
       ),
-      url(../img/hero/hero-2x.jpg);
+      url(../img/hero/hero-2x.webP);
   }
 }
 @media screen and (min-width: 768px) {
