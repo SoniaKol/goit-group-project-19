@@ -20,7 +20,7 @@
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/goit-group-project-19/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/goit-group-project-19/assets/index-a4c3a44c.css">
+    <link rel="stylesheet" href="/goit-group-project-19/assets/index-393bad01.css">
   </head>
   <body>
     <header class="header">
@@ -88,50 +88,55 @@
   <h2 class="visually-hidden">How it works</h2>
   <div class="work-container">
     <div class="work-img-container">
-      <picture class="work-picture">
-        <source
-          srcset="
-            ./img/how-it-works/desktop/Rectangle-2x.webP 2x,
-            ./img/how-it-works/desktop/Rectangle-1x.webP 1x
-          "
-          media="(min-width: 1280px)"
-        />
-        <source
-          srcset="
-            ./img/how-it-works/tab/Rectangle-2x.webP 2x,
-            ./img/how-it-works/tab/Rectangle-1x.webP 1x
-          "
-          media="(min-width: 768px)"
-        />
-        <source
-          srcset="
-            ./img/how-it-works/mob/Rectangle-2x.webP 2x,
-            ./img/how-it-works/mob/Rectangle-1x.webP 1x
-          "
-          media="(min-width: 375px)"
-        />
-        <img
-          src="./img/how-it-works/mob/Rectangle-1x.webP"
-          alt="how-it-works"
-          width="640"
-          height="640"
-          class="work-img"
-        />
-      </picture>
+      <div class="work-picture-wrap">
+        <picture class="work-picture">
+          <source
+            srcset="
+              ./img/how-it-works/desktop/Rectangle-2x.webP 2x,
+              ./img/how-it-works/desktop/Rectangle-1x.webP 1x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ./img/how-it-works/tab/Rectangle-2x.webP 2x,
+              ./img/how-it-works/tab/Rectangle-1x.webP 1x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/how-it-works/mob/Rectangle-2x.webP 2x,
+              ./img/how-it-works/mob/Rectangle-1x.webP 1x
+            "
+            media="(min-width: 375px)"
+          />
+          <img
+            src="./img/how-it-works/mob/Rectangle-1x.webP"
+            alt="how-it-works"
+            width="640"
+            height="640"
+            class="work-img"
+          />
+        </picture>
+      </div>
     </div>
 
     <div class="work-text-bg">
-      <div class="work-text-container">
-        <h3 class="work-subtitle">
-          To order your
-          <span>vegetable</span> basket, simply follow these
-          <span>easy steps</span>
-        </h3>
-        <p class="work-text">
-          Our baskets are assembled with care and delivered straight to your
-          doorstep, so you can enjoy the taste of fresh fruit without ever
-          leaving your home.
-        </p>
+      <div class="work-text-wrap">
+        <div class="work-text-container">
+          <h3 class="work-subtitle">
+            To order your
+            <span>vegetable</span> basket, simply follow these
+            <span>easy steps</span>
+          </h3>
+          <p class="work-text">
+            Our baskets are assembled with care and delivered straight to your
+            doorstep, so you can enjoy the taste of fresh fruit without ever
+            leaving your home.
+          </p>
+        </div>
+
         <ol class="work-list">
           <li class="work-item">
             <div>
@@ -474,7 +479,7 @@
           href="./index.html"
           aria-label="Green Harvest website logo"
         >
-          <svg class="icon footer-logo" width="17" height="16">
+          <svg class="footer-logo-icon" width="17" height="16">
             <use href="/goit-group-project-19/assets/icons-2531de4e.svg#footer-logo"></use>
           </svg>
         </a>
