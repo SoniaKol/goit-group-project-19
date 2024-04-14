@@ -15,12 +15,18 @@
 }
 .vegetables-content-title {
   font-weight: 600;
-  font-size: 48px;
+  font-size: 46px;
 
   line-height: 1.04;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
+}
+
+@media screen and (min-width: 375px) {
+  .vegetables-content-title {
+    font-size: 48px;
+  }
 }
 
 .vegetables-content-title span {
